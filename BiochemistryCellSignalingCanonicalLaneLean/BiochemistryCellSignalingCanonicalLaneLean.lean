@@ -1,0 +1,9 @@
+import canonicalLaneMathlib.AdmissibleClass
+
+namespace HautevilleHouse
+namespace BiochemistryCellSignalingCanonicalLaneLean
+
+-- This module is the root of the BiochemistryCellSignalingCanonicalLaneLean Lean proof package.
+
+end BiochemistryCellSignalingCanonicalLaneLean
+end HautevilleHouse

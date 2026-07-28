@@ -1,0 +1,14 @@
+import BiochemistryCellSignalingCanonicalLaneLean.BridgeLemmas
+
+namespace HautevilleHouse
+namespace BiochemistryCellSignalingCanonicalLaneLean
+
+def gateClosed (A : AdmissibleClass) : Prop :=
+  A.endpointSatisfied ∨ A.remainderRecorded
+
+theorem gate_from_admissible_class (A : AdmissibleClass) :
+    gateClosed A := by
+  exact A.gateWitness
+
+end BiochemistryCellSignalingCanonicalLaneLean
+end HautevilleHouse
